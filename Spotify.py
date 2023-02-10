@@ -49,7 +49,7 @@ def generate():
             return (True, nickname, r.json()["username"], email, passw)
 
 if __name__ == "__main__":
-    choice = int(Mode.Vertical(colors.purple_to_blue , make_box.Banner("""
+    choice = int(Mode.Vertical(colors.purple_to_blue , make_box.Box("""
 ███████ ██████   ██████  ████████ ██ ███████ ██    ██ 
 ██      ██   ██ ██    ██    ██    ██ ██       ██  ██  
 ███████ ██████  ██    ██    ██    ██ █████     ████   
